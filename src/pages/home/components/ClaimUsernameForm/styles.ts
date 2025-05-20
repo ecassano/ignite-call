@@ -1,4 +1,4 @@
-import { styled, Box } from "@ignite-ui/react";
+import { styled, Box } from '@ignite-ui/react'
 
 export const Form = styled(Box, {
   display: 'grid',
@@ -19,4 +19,3 @@ export const Form = styled(Box, {
 export const FormAnnotation = styled('div', {
   color: '#f75a68',
 })
-
