@@ -7,7 +7,7 @@ import {
   Text,
   TextInput,
 } from '@ignite-ui/react'
-// import { NextSeo } from 'next-seo'
+import { NextSeo } from 'next-seo'
 import { useRouter } from 'next/router'
 import { ArrowRight } from 'phosphor-react'
 import { Controller, useFieldArray, useForm } from 'react-hook-form'
@@ -112,7 +112,7 @@ export default function TimeIntervals() {
 
   return (
     <>
-      {/* <NextSeo title="Selecione sua disponibilidade | Ignite Call" noindex /> */}
+      <NextSeo title="Selecione sua disponibilidade | Ignite Call" noindex />
 
       <Container>
         <Header>

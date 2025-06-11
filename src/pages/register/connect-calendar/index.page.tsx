@@ -1,6 +1,6 @@
 import { Button, Heading, MultiStep, Text } from '@ignite-ui/react'
 import { signIn, useSession } from 'next-auth/react'
-// import { NextSeo } from 'next-seo'
+import { NextSeo } from 'next-seo'
 import { useRouter } from 'next/router'
 import { ArrowRight, Check } from 'phosphor-react'
 // import { api } from "../../../lib/axios"
@@ -24,7 +24,7 @@ export default function ConnectCalendar() {
 
   return (
     <>
-      {/* <NextSeo title="Conecte sua agenda do Google | Ignite Call" noindex /> */}
+      <NextSeo title="Conecte sua agenda do Google | Ignite Call" noindex />
 
       <Container>
         <Header>
